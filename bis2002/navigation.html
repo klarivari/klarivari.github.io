@@ -1,0 +1,108 @@
+<html>
+
+<head>
+<title>Klarinettenquintett KLARIVARI</title>
+<script language="JavaScript">
+  <!--
+  Normal1 = new Image();
+  Normal1.src = "navigation/facts1.gif";
+  Highlight1 = new Image();
+  Highlight1.src = "navigation/facts2.gif";
+  Normal2 = new Image();
+  Normal2.src = "navigation/mitglieder1.gif";
+  Highlight2 = new Image();
+  Highlight2.src = "navigation/mitglieder2.gif";
+  Normal3 = new Image();
+  Normal3.src = "navigation/probeplan1.gif";
+  Highlight3 = new Image();
+  Highlight3.src = "navigation/probeplan2.gif";
+  Normal4 = new Image();
+  Normal4.src = "navigation/repertoire1.gif";
+  Highlight4 = new Image();
+  Highlight4.src = "navigation/repertoire2.gif";
+  Normal5 = new Image();
+  Normal5.src = "navigation/auftritte1.gif";
+  Highlight5 = new Image();
+  Highlight5.src = "navigation/auftritte2.gif";
+  Normal6 = new Image();
+  Normal6.src = "navigation/gallerie1.gif";
+  Highlight6 = new Image();
+  Highlight6.src = "navigation/gallerie2.gif";
+  Normal7 = new Image();
+  Normal7.src = "navigation/kontakt1.gif";
+  Highlight7 = new Image();
+  Highlight7.src = "navigation/kontakt2.gif";
+  Normal8 = new Image();
+  Normal8.src = "navigation/exit1.gif";
+  Highlight8 = new Image();
+  Highlight8.src = "navigation/exit2.gif";
+
+  function Bildwechsel(Bildnr,Bildobjekt)
+  {
+   window.document.images[Bildnr].src = Bildobjekt.src;
+  }
+
+  function ZweiFrames(URL1,F1,URL2,F2)
+  {
+  parent.frames[F1].location.href=URL1;
+  parent.frames[F2].location.href=URL2;
+  }
+   //-->
+   </script>
+</head>
+
+<body bgcolor="#000000">
+<table width="100" border="0" height="100%">
+  <tr valign="top">
+    <td>
+      <table border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td><a href="javascript:ZweiFrames('einleitung/title.html','1','einleitung/index.html','2')"><img src="navigation/home.gif" width=79 height=31 border=0></a></td>
+        </tr>
+        <tr>
+          <td><img src="navigation/bar1.gif" width=79 height=76 border=0></td>
+        </tr>
+        <tr>
+          <td><a href="javascript:ZweiFrames('facts/title.html','1','facts/index.html','2')" onMouseOver="Bildwechsel(2,Highlight1)" onMouseOut="Bildwechsel(2,Normal1)"><img src="navigation/facts1.gif" width=62 height=28 border=0></a></td>
+        </tr>
+        <tr>
+          <td><a href="javascript:ZweiFrames('mitglieder/title.html','1','mitglieder/index.html','2')" onMouseOver="Bildwechsel(3,Highlight2)" onMouseOut="Bildwechsel(3,Normal2)"><img src="navigation/mitglieder1.gif" width=96 height=28 border=0></a></td>
+        </tr>
+        <tr>
+          <td><!--<a href="javascript:ZweiFrames('probenplan/title_mit_abmelden.html','1','probenplan/index.php','2')" onMouseOver="Bildwechsel(4,Highlight3)" onMouseOut="Bildwechsel(4,Normal3)">--><img src="navigation/probeplan1.gif" width=87 height=28 border=0><!--</a>--></td>
+        </tr>
+        <tr>
+          <td><a href="javascript:ZweiFrames('repertoire/title.html','1','repertoire/index.html','2')" onMouseOver="Bildwechsel(5,Highlight4)" onMouseOut="Bildwechsel(5,Normal4)"><img src="navigation/repertoire1.gif" width=96 height=28 border=0></a></td>
+        </tr>
+        <tr> <!-- <td><img src="navigation/auftritte0.gif" width=96 height=28 border=0></td> -->
+          <td><a href="javascript:ZweiFrames('auftritte/title.html','1','auftritte/index.html','2')" onMouseOver="Bildwechsel(6,Highlight5)" onMouseOut="Bildwechsel(6,Normal5)"><img src="navigation/auftritte1.gif" width=96 height=28 border=0></a></td>
+        </tr>
+        <tr>
+          <td><a href="javascript:ZweiFrames('gallerie/title.html','1','gallerie/index.html','2')" onMouseOver="Bildwechsel(7,Highlight6)" onMouseOut="Bildwechsel(7,Normal6)"><img src="navigation/gallerie1.gif" width=87 height=28 border=0></a></td>
+        </tr>
+        <tr>
+          <td><a href="javascript:ZweiFrames('kontakt/title.html','1','kontakt/index.html','2')" onMouseOver="Bildwechsel(8,Highlight7)" onMouseOut="Bildwechsel(8,Normal7)"><img src="navigation/kontakt1.gif" width=79 height=28 border=0></a></td>
+        </tr>
+        <tr>
+          <td></td>
+        </tr>
+      </table>
+
+</td>
+  </tr>
+  <tr valign="bottom">
+    <td height="32">
+      <table width="100%" border="0" align="center" valign="bottom" height="32">
+        <tr>
+          <td>
+            <div align="center"><a href="/" target="_parent">zur&uuml;ck</a>
+              <img src="navigation/mitglieder.gif" width=1 height=1 border=0><img src="navigation/probeplan.gif" width=1 height=1 border=0><img src="navigation/repertoire.gif" width=1 height=1 border=0><img src="navigation/facts.gif" width=1 height=1 border=0><img src="navigation/auftritte.gif" width=1 height=1 border=0><img src="navigation/gallerie.gif" width=1 height=1 border=0><img src="navigation/kontakt.gif" width=1 height=1 border=0></div>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<br>
+</body>
+</html>
